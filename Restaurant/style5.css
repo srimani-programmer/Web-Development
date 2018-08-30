@@ -1,0 +1,253 @@
+@media screen and (max-height: 640px) {
+#containered{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	right: 0%;
+}
+.ico{
+  position: absolute;top: 1%;left: 13%;
+}
+#head{
+	height: 100px;
+	width: screen;
+	background: black;
+}
+#heading{
+	width: 600px;
+	height: 100px;
+	text-align: left;
+	color: white;
+	float: left;
+}
+#logo{
+	width: 310px;
+	height: 100px;
+	float: left;
+}
+#share{
+	width: 450px;
+	height: 100px;
+	float: right;
+}
+#shared{
+  float: right;
+  height: 4%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 3%;
+    left: 52%;
+    background-color: black;
+    overflow-x: hidden;
+    transition: margin 300ms black;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+#icon1{
+	height: 40px;
+	width: 40px;
+	position: absolute;
+    border-radius: 20px;
+    top: 3%;
+    left: 80%;
+}
+#icon2{
+	height: 40px;
+	width: 40px;
+	position: absolute;
+    border-radius: 20px;
+    top: 3%;
+    left: 85%;
+}
+#icon3{
+	height: 40px;
+	width: 40px;
+	position: absolute;
+    border-radius: 20px;
+    top: 3%;
+    left: 90%;
+}
+
+#icon4{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+    border-radius: 20px;
+    top: 3%;
+    left:40%;
+}
+#icon5{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+    border-radius: 20px;
+    top: 3%;
+    left: 60%;
+}
+#icon6{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+    border-radius: 20px;
+    top: 3%;
+    left: 80%;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  color: #7fff00;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+.material-icons1 {
+  font-family: 'Material Icons';
+  color: black;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+#nav{
+	height: 50px;
+	width: screen;
+	background: grey;
+}
+#icon1:hover,#icon2:hover,#icon3:hover,#icon4:hover,#icon5:hover,#icon6:hover{
+	background: white;
+}
+#headddd{
+	width: 100px;
+	height: 50px;
+	float: left;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	}
+#headddddd{
+  width: 100px;
+  height: 50px;
+  float: left;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+#headdddd{
+	width: 250px;
+	height: 50px;
+	float: left;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	}
+#headddd:hover,#headdddd:hover{
+		background: white;
+		color: black;
+	}
+button{
+		background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	}
+#body{
+  height: 1200px;
+  width: screen;
+  background-image: url('body1.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url('sidebar-1.jpg');
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 80px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+  text-decoration: none;
+    color: #f1f1f1;
+}
+.profile {
+    height: 25%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 70%;
+    background: rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+    transition: 0s;
+    padding-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 20px;
+   
+}
+ .footer{
+  height: 100px;
+  width: screen;
+  background: red;
+  position: fixed;
+  top: 90%;
+  left: 0%;
+  right: 0%;
+ }
+ #username{
+      position: absolute;top: 30%;left: 20%;
+    }
+    #password{
+      position: absolute;top: 50%;left: 20%
+    }
+    #submit{
+      background: green;border-radius: 20px;position: absolute;top: 70%;left: 40%;
+    }
+    #ar{
+      position: absolute;top:80%;left: 27%;
+    }
+    #img{
+      position: absolute;
+      top: 6%;
+      left: 40%;
+      height: 60px;
+      width: 60px;
+    }
+ }

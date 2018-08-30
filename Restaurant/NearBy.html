@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Near By</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <script type="text/javascript" src="design.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div id="containered">
+    <div id="head">
+      <div id="logo">
+        <img src="icon.png" height="80" width="80" style="position: absolute;top: 1%;left: 13%;">
+      </div>
+      <div id="heading"><h1 style="font-size: 50px;padding-top: 5px;">RestaurentIsHere</h1></div>
+      <div id="share">
+        <div id="icon1">
+          <button data-toggle="tooltip" title="Share"><i class="material-icons" onmouseover="opening()">&#xe80d;</i></button>
+        </div>
+        <div id="icon2">
+          <button data-toggle="tooltip" title="Login"><i class="material-icons" onclick="opened()">&#xe7fd;</i></button>
+        </div>
+        <div id="icon3">
+          <button data-toggle="tooltip" title="Menu"><i class="material-icons" onclick="openNav()">&#xe5d2;</i></button>
+        </div>
+      </div>
+    </div>
+    <div id="nav">
+      <div id="shared">
+        <div id="icon4">
+          <button data-toggle="tooltip" title="Share"><i class="material-icons" onmouseover="opening()">&#xe80d;</i></button>
+        </div>
+        <div id="icon5">
+          <button data-toggle="tooltip" title="Login"><i class="material-icons" onclick="opened()">&#xe7fd;</i></button>
+        </div>
+        <div id="icon6">
+          <button data-toggle="tooltip" title="Menu"><i class="material-icons" onclick="openNav()">&#xe5d2;</i></button>
+        </div>
+      
+      </div>
+      <div id="mySidenav" class="sidenav">
+       <h1 style="background: black;color:white;font-size: 35px;padding-left: 20px;"><img src="icon.png" style="padding:7px 7px 7px 7px;px;height: 80px;width: 80px;">RestaurentIsHere</h1>
+         <a href="#">Home</a>
+         <a href="#">Services</a>
+         <a href="#">Top 10 restaurents in India</a>
+           <a href="#">Contact</a>
+           <a href="#">About Us</a>
+            </div>
+            <div id="profile" class="profile">
+              <h1>User Login</h1>
+              <h6>Name:<input type="text" name="text"></h6><br>
+              <h6>PhNumber:<input type="text" name="text"></h6><br>
+              <h6>EmailId:<input type="text" name="text"></h6><br>
+              <input style="background-color: lightblue;border-radius: 20px" type="submit" name="submit" value="submit" onclick="document.getElementById('para').innerHTML='<br>Data submitted successfully'">
+              <p id="para"></p>
+            </div>
+      <div style="height: 60px;width: 150px;float: left;"></div>
+      <div>
+        <a href="index.html"><div id="headddd">Home<i class="material-icons1">&#xe5cf;</i></div></a>
+        <a href="NearBy.html"><div id="headddd">Near By<i class="material-icons1">&#xe5cf;</i></div></a>
+        <a href="which.html"><div id="headdddd">Which Item Do You Want<i class="material-icons1">&#xe5cf;</i></div></a>
+        <a href="feedback.html"><div id="headddd">Feedback<i class="material-icons1">&#xe5cf;</i></div></a>
+      </div>
+    </div>
+    <div id="body" onclick="closeNav();closed();" onmouseover="closing()">
+      <div style="font-size: 75px;color: white;padding-top: 20px;padding-left: 400px;">Near by Restaurents</div>
+      <input style="position: absolute;top: 13%;left: 80%;width: 200px;height: 20px;" type="text" name="location" placeholder="select your location"><i class="material-icons" onclick="openNav()">&#xe5d2;</i>
+<form class="f1">
+  <h1>The spoon</h1>
+  <h3>Specials</h3>
+  <ul>
+  <li>Chicken Biryani</li>
+  <li>Muttan Biryani</li>
+  <li>Frauns Fries</li>
+  <li>Noodles</li>
+</ul>
+  <div class="b1">
+  <input type="button" name="Apply" value="Apply" onclick="alert('Check Your E-mail for Further Details');">
+  </div>
+</form>
+<form class="f2">
+  <h1>The Restaurent</h1>
+  <h3>Specials</h3>
+  <ul>
+  <li>Chicken Biryani</li>
+  <li>Muttan Biryani</li>
+  <li>Frauns Fries</li>
+  <li>Noodles</li>
+</ul>
+  <input type="button" name="Apply" value="Apply"onclick="alert('Check Your E-mail for Further Details');">
+</form>
+<form class="f3">
+  <h1>The spoon</h1>
+  <h3>Specials</h3>
+  <ul>
+  <li>Chicken Biryani</li>
+  <li>Muttan Biryani</li>
+  <li>Frauns Fries</li>
+  <li>Noodles</li>
+</ul>
+<input type="button" name="Apply" value="Apply"onclick="alert('Check Your E-mail for Further Details');" >
+</form>
+<form class="f4">
+  <h<h1>The Restaurent</h1>
+  <h3>Specials</h3>
+  <ul>
+  <li>Chicken Biryani</li>
+  <li>Muttan Biryani</li>
+  <li>Frauns Fries</li>
+  <li>Noodles</li>
+</ul>
+<input type="button" name="Apply" value="Apply"onclick="alert('Check Your E-mail for Further Details');" >
+</form><form class="f5">
+  <h1>The spoon</h1>
+  <h3>Specials</h3>
+  <ul>
+  <li>Chicken Biryani</li>
+  <li>Muttan Biryani</li>
+  <li>Frauns Fries</li>
+  <li>Noodles</li>
+</ul>
+<input type="button" name="Apply" value="Apply"onclick="alert('Check Your E-mail for Further Details');" >
+</form>
+<form class="f6">
+  <h1>The Restaurent</h1>
+  <h3>Specials</h3>
+  <ul>
+  <li>Chicken Biryani</li>
+  <li>Muttan Biryani</li>
+  <li>Frauns Fries</li>
+  <li>Noodles</li>
+<input type="button" name="Apply" value="Apply" onclick="alert('Check Your E-mail for Further Details');" >
+</form>
+
+    </div>
+  </div>
+
+</body>
+</html>

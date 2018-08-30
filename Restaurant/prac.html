@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>canvas</title>
+	<script type="text/javascript">
+		window.onload=function() {
+			var canvas=document.getElementById("canvas");
+			var context=canvas.getContext("2d");
+			context.strokeStyle = "orange";
+			context.strokeRect(10,10,150,50);
+			context.fillStyle="rgBa(218,0,0,0.1)";
+			context.fillRect(150,30,75,75);
+		}
+	</script>
+</head>
+<body>
+	<h1>Simple Canvas Example</h1>
+	<canvas id="canvas" width="300" height="300">
+		<strong>Canvas Supporting Browser Required</strong>
+	</canvas>
+</body>
+</html>

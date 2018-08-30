@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Which Iten Do You Want</title>
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <script type="text/javascript" src="design.js"></script>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div id="containered">
+    <div id="head">
+      <div id="logo">
+        <img src="icon.png" height="80" width="80" style="position: fixed;top: 1%;left: 11%;">
+      </div>
+      <div id="heading"><h1 style="font-size: 40px;">RestaurentIsHere</h1></div>
+      <div id="share">
+        <div id="icon1">
+          <button><i class="material-icons" onmouseover="opening()" onclick="closing()">&#xe80d;</i></button>
+        </div>
+        <div id="icon2">
+          <button><i class="material-icons" onclick="opened()">&#xe7fd;</i></button>
+        </div>
+        <div id="icon3">
+          <button><i class="material-icons" onclick="openNav()">&#xe5d2;</i></button>
+        </div>
+      </div>
+    </div>
+    <div id="nav">
+      <div id="shared">
+          <button id="icon"><i class="material-icons">&#xe80d;</i></button>
+        
+          <button id="icon"><i class="material-icons" onclick="opened()">&#xe7fd;</i></button>
+        
+          <button id="icon"><i class="material-icons" onclick="openNav()">&#xe5d2;</i></button>
+      
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <h1 style="background: black;color:white;font-size: 35px;padding-bottom: 10px;padding-left: 40px;"><img src="icon.png" height="40" width="40" style="padding-top: 10px;">RestaurentIsHere</h1>
+         <a href="#">Home</a>
+         <a href="#">Services</a>
+         <a href="#">Top 10 restaurents in India</a>
+           <a href="#">Contact</a>
+           <a href="#">About Us</a>
+            </div>
+            <div id="profile" class="profile">
+              <h1>User Login</h1>
+              <h3>Name:<input type="text" name="text"></h3><br>
+              <h3>PhNumber:<input type="text" name="text"></h3><br>
+              <h3>EmailId:<input type="text" name="text"></h3><br>
+              <input style="background-color: lightblue;border-radius: 20px" type="submit" name="submit" value="submit" onclick="document.getElementById('para').innerHTML='Data submitted successfully'">
+              <p id="para"></p>
+            </div>
+      <div style="height: 60px;width: 150px;float: left;"></div>
+      <div>
+        <a href="index.html"><div id="headddd">Home<i class="material-icons1">&#xe5cf;</i></div></a>
+        <a href="NearBy.html"><div id="headddd">Near By<i class="material-icons1">&#xe5cf;</i></div></a>
+        <a href="which.html"><div id="headdddd">Which Item Do You Want<i class="material-icons1">&#xe5cf;</i></div></a>
+        <a href="feedback.html"><div id="headddd">Feedback<i class="material-icons1">&#xe5cf;</i></div></a>
+      </div>
+    </div>
+    <div id="body" onclick="closeNav()">
+         
+    </div>
+  </div>
+
+</body>
+</html>

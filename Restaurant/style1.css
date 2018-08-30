@@ -1,0 +1,85 @@
+#nav{
+	height: 50px;
+	width: screen;
+	background: grey;
+}
+#icon1:hover,#icon2:hover,#icon3:hover{
+	background: white;
+}
+#headddd{
+	width: 200px;
+	height: 50px;
+	float: left;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	}
+#headdddd{
+	width: 400px;
+	height: 50px;
+	float: left;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	}
+#headddd:hover,#headdddd:hover{
+		background: white;
+		color: black;
+	}
+button{
+		background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	}
+#body{
+	height: 800px;
+	width: screen;
+	background-image: url('body1.jpg');
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 80px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.profile {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 15%;
+    left: 88%;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 80px;
+}
+@media screen and (max-height: 450px) {
+  .profile {padding-top: 15px;}
